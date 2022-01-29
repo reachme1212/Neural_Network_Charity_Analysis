@@ -15,9 +15,11 @@ Results:
 
 * I have tried 2 layers and 3 layers , 10 and 8 neurons , I have also tried a relu ,tanh activation , Were not able to achieve the target model performance accuracy of 75%. 
 
-* To increase model performance I have increased the epoch count from 100 to 120 ,alos tried reducing epoch, I have tried reducing the dataframe columns from 45 columns to 36 columns. could not boost the accuracy above 72%
+* To increase model performance I have increased the epoch count from 100 to 120 ,also tried reducing epoch no difference , I have tried reducing the dataframe columns from 45 columns to 36 columns. could not boost the accuracy above 72%
 
 * The loss percentage is also high 0.55 , better performing models have very low training loss example 0.01 , If the errors are high, the loss will be high. In Deep Learning, the loss function is used by the model to learn. The goal of the model is to minimize the value of the loss,If we plot loss results over time, we can see whether our model is learning or not.
+
+* I tried removing outliers from dataframe "Ask_amt" column , it did not improve the accuracy due to data loss.
 
 Summary:
 
